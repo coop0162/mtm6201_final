@@ -1,0 +1,27 @@
+/* .btn-sucess green to change the button search button to purple in .btn-success  */
+
+.btn-success {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: purple;
+  --bs-btn-border-color: purple;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: purple;
+  --bs-btn-hover-border-color: purple;
+  --bs-btn-focus-shadow-rgb: 60, 153, 110;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: purple;
+  --bs-btn-active-border-color: purple;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: purple;
+  --bs-btn-disabled-border-color: purple;
+}
+/* top image and backgroundcolour */
+.toppage {
+  background-color: #28293e;
+  width: 100%;
+}
+/* background colour */
+.container-fluid {
+  background-color: #28293e;
+}
