@@ -1,7 +1,3 @@
-body {
-  font-family: "Epilogue", sans-serif, Arial, Helvetica;
-}
-
 /* google font embded code */
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
@@ -11,4 +7,8 @@ body {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+
+body {
+  font-family: "Epilogue", Arial, Helvetica, sans-serif;
 }
