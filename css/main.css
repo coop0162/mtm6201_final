@@ -1,1 +1,10 @@
-/* .btn-sucess green to change the button search button to purple in .btn-success  */
+/* google font embded code */
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.epilogue-<uniquifier > {
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
