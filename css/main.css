@@ -1,8 +1,26 @@
+/* font for body */
 body {
   font-family: "Epilogue", sans-serif;
 }
+/* background image map */
 .map-bg {
   background: white url(../images/desktopimg/largmap-1.png) no-repeat center
     center;
   background-size: cover;
+}
+/* backgrounf for the phone Icon */
+.pho {
+  background-image: url(../images/desktopicon/Oval-1.png); no-repeat center;
+  background-size:cover;
+
+}
+/* background for the mail Icon */
+.emil{
+  background-image: url(../images/desktopicon//Oval-2.png); no-repeat center;
+  background-size:cover;
+}
+/* background for the address icon */
+.addr{
+  background-image: url(../images/desktopicon//Oval-2.png); no-repeat center;
+  background-size:cover;
 }
