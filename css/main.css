@@ -2,6 +2,25 @@
 body {
   font-family: "Epilogue", sans-serif;
 }
+.bgspecial{
+  background-color: lightbrown;
+}
+.mod-size {
+  size: 5px;
+}
+/* quotation top page marginw */
+.quo{
+  margin-top: -20%;
+}
+
+/* backgeound image on video image play button
+.landv{
+background-image: white url(../images/desktopicon/play.png); no-repeat center center;
+background-size: cover;
+} */
+
+
+
 /* background image map */
 .map-bg {
   background: white url(../images/desktopimg/largmap-1.png) no-repeat center
