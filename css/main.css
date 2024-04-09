@@ -1,10 +1,9 @@
-/* font for body */
+/* font for body and background after top page  */
 body {
   font-family: "Epilogue", sans-serif;
+  background-color:  beige;
 }
-.bgspecial{
-  background-color: lightbrown;
-}
+
 .mod-size {
   size: 5px;
 }
