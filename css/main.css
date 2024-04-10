@@ -3,6 +3,24 @@ body {
   font-family: "Epilogue", sans-serif;
   background-color:  beige;
 }
+/* bootstrap */
+:root,
+[data-bs-theme="dark"] {
+  --bs-primary: rgb(4, 4, 10);
+  --bs-primary-rgb: 0, 4, 53;
+  --bs-secondary: rgb(236, 192, 110);
+  --bs-secondary-rgb: 194, 178, 128;
+  --cs-primary-dark: #906500;
+  --cs-primary-dark-rgb: 236, 192, 110;
+}
+
+.bg-primary {
+  --bs-bg-color: var(--bs-primary);
+  --bs-bg-color: var(--bs-primary);
+  --bs-bg-color: var(--bs-primary);
+  
+}
+
 
 .mod-size {
   size: 5px;
