@@ -16,7 +16,9 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css" />
   <!-- Bootstrap icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11." rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- https://animate.style/  css library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
@@ -59,283 +61,280 @@
   </header>
 
   <main>
-    <div>
-      <!-- top page text side by side with med image -->
-      <section class="container-fluid banner bg-primary">
+    <!-- top page text side by side with med image -->
+    <section class="container-fluid banner bg-primary">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-md order-md-1">
+            <picture>
+              <source srcset="images/desktopimg/largetop.png" media="(min-width:700px)" />
+              <source srcset="images/mobileimg/topimgtechsmall.png" media="(min-width:400px)">
+              <img class="w-100" src="images/desktopimg/top.png" alt="laptop and women face  " />
+            </picture>
+          </div>
+          <div class="col-md">
+            <h1 class="fs-6 text m-4 text-danger p-3 mod-size ">
+              MODERN STUDIO
+            </h1>
+            <h2 class="display-4 m-3 py-3 text-light fw-bolder phase">
+              We&apos;re Help To Build Your Dream Project</h2>
+
+            <p class=" m-1 p-2 text-light  "> Agency provides a full service range including technical
+              skills
+              design
+              business understanding </p>
+            <button class="btn btn-warning mx-3 " type="submit">HOW WE WORK</button>
+            <button class="btn btn-dark " type="submit"> Contact Us</button>
+            <div class="row my-5">
+              <div class="col-md-3">
+                <img class="w-100" src="images/mobileimg/smallprofileimg.png" alt="men face in profile image">
+              </div>
+              <div class="col-md">
+                <blockquote class="text-light">"Put themselves in the merchants' shoes" Meta Inc.
+                </blockquote>
+              </div>
+            </div>
+
+          </div><!--div class h1 to h2 pargraphs col-md-->
+        </div><!--closes holding the responsive images and headings paragraphs-->
+      </div> <!--close container-xl-->
+    </section><!--close container-fluid all the blue background-->
+
+    <!-- images logo banner  -->
+
+    <section class="container-fluid banner ">
+      <div class="container-xl my-5 p-4">
+        <div class="row gy-4 gy-md-0 text-center">
+          <div class="col-md ">
+            <img src="images/desktopimg/Digitalsidelogo.png" alt=" Digitalsidelogo">
+          </div><!--div closing col-md Digitalsidelogo-->
+          <div class="col-md">
+            <img src="images/desktopimg/vortexlogo.png" alt="vortexlogo">
+          </div><!--div closing col-md vortexlogo-->
+          <div class="col-md">
+            <img src="images/desktopimg/travelexporerlogo.png" alt="travelexporerlogo">
+          </div><!--div closing col-md travelexplorer-->
+          <div class="col-md">
+            <img src="images/desktopimg/fuzionlogo.png" alt="fuzionlogo">
+          </div><!--div closing col-md fuzionlogo-->
+          <div class="col-md order-md-last">
+            <img src="images/desktopimg/MediaFurylogo.png" alt="MediaFurylogo">
+          </div><!--div closing col-md mediafury-->
+
+
+        </div><!-- div closing row-->
+
+
+      </div><!--container-xl-->
+    </section><!--section closing container-fluid banner -->
+
+    <!-- profile image side by side with text  -->
+    <section class=" container-fluid">
+      <div class="container-xl p-5">
+
+        <div class="row">
+          <div class="col-md-6 order-last">
+            <p class=" fs-6 text mx-5 text-danger mod-size">ABOUT</p>
+            <p class="display-6 fw-bolder phases px-5 "> An Experience Design Agency</p>
+            <p class="mx-5 fw-semibold "> Provide a full service range</p>
+            <p class="mx-5">Ability to put themsleves in the merchant shoes. It is meant to parnter on the long
+              run, and work as an extension of merchant team</p>
+            <button type="button" class="btn btn-light rounded-1 mx-5">ABOUT US</button>
+          </div><!-- div class col md order md2-->
+          <div class="col-md-6 order-first">
+            <picture>
+              <source srcset="images/desktopimg/largeoffice.png" media="(min-width:700px)" />
+              <source srcset="images/mobileimg/officeprofilesmall.png" media="(min-width:400px)" /><img
+                class="img-fluid proimages" src="images/desktopimg/office.png"
+                alt="men face profile with office behind " />
+            </picture>
+
+          </div><!--closes div class col md order md 1 -->
+        </div><!--div close row-->
+      </div><!--div close class container-xl-->
+    </section><!--section close class container-fluid bg-dark-->
+
+    <!--  one rows three single columns desktop  and mobiles stack on top of each other statis side by side -->
+    <section class="container-fluid">
+      <div class="container-xl p-5">
+        <div class="row mx-4 py-5">
+          <div class="col-md border border-warning-subtle rounded-1  ">
+            <p class="p-1 fs-3 fw-semibold text">42%</p>
+            <p>Years of experience </p>
+          </div> <!--div closes col-md -->
+
+          <div class="col-md border border-warning-subtle rounded-1">
+            <p class="p-1 fs-3 fw-semibold text">73+</p>
+            <p>Agency members</p>
+
+
+          </div><!--div closes class col-->
+          <div class="col-md border border-warning-subtle rounded-1">
+            <p class="p-1 fs-3 fw-semibold text">5.000</p>
+            <p>Project complete</p>
+
+          </div><!--div closes class col-->
+        </div><!--closes div class row-->
+      </div><!--div closes class container xl-->
+    </section><!-- section closes class container-fluid-->
+
+    <!-- making project and steps sections -->
+    <section class="container-fluid">
+      <div class="container-lg p-5">
+        <div class="row ">
+          <div class="col-md order-first">
+            <h4 class=" fs-6 text mx-1 text-danger mod-size ">HOW WE WORK</h4>
+            <h5 class="display-6 fw-bolder phases px-1">Making Your Projects Look Awesome</h5>
+            <p>Techincal skills design, business understanding Ability to put themselves in the
+              merchants shoes</p>
+            <p class="btn btn-light rounded-1 fs-6 text">Read More</p>
+          </div><!--div closes class col  -->
+          <div class="col-md fw-semibold fs-5 text p-2">
+            <ol class="my-3 pe-5 ">
+              <li class="py-3"> full service range including</li>
+              <li class="py-3"> Techincal skills, design business</li>
+              <li class="py-3"> themselves in the merchant's</li>
+            </ol>
+          </div><!--div closes class col-->
+        </div><!--closes div class row-->
+      </div><!--div closes class container xl-->
+    </section><!-- section closes class container-fluid-->
+
+    <!-- video and unlock grestest value possible -->
+    <section class="container-fluid">
+      <div class="container-xl p-5">
+        <div class="row">
+          <div class="col-md ">
+            <picture>
+              <source srcset="images/desktopimg/extralargevideo.png" media="(min-width:700px)" />
+              <source srcset="images/mobileimg/videobgsmall.png" media="(min-width:400px)" /><img class=" landv w-100"
+                src="images/desktopimg/largevideo.png" alt="landscrape video" />
+            </picture>
+          </div><!--div closes class col  -->
+          <div class="col-md mt-5">
+            <h4 class=" fs-6 text mx-4 text-danger mod-size ">Video Reel</h4>
+            <p class="display-6 fw-bolder phases px-4">Unlock The Grestest Value Possible</p>
+            <p class="px-4 fs-6">Design , business understanding, Ability to put the themselves in the merchants
+              shoes
+              ment
+              to parnter
+            </p>
+
+          </div><!--div closes class col-->
+        </div><!--closes div class row-->
+      </div><!--div closes class container xl-->
+    </section><!-- section closes class container-fluid-->
+
+    <!--  Give your site a New look and profile and mobile image-->
+    <section class="container-fluid">
+      <div class="container-xl p-5">
+        <div class="row">
+          <div class="col-md order-md-1 ">
+            <picture>
+              <source srcset="images/desktopimg/largephone.png" media="(min-width:700px)" />
+              <source srcset="images/mobileimg/phoneprofilesmall.png" media="(min-width:400px)" /><img class="w-100"
+                src="images/desktopimg/medphone.png" alt="profile image men and smartphone beside" />
+
+            </picture>
+          </div><!--div closes class col-->
+          <div class="col-md py-5">
+            <p class=" fs-6 text mx-5 text-danger mod-size ">Feature</p>
+            <p class="display-6 fw-bolder phases px-5">Give Your Site a New Look </p>
+            <p class="px-4">service range inclusing technical skills ,deisng
+              business understanding
+            </p>
+            <ul>
+              <!-- <i class="bi bi-check-circle-fill"></i> -->
+              <li>range including technical skills</li>
+              <li>Business unstanding </li>
+              <li> Parnter on the long run</li>
+            </ul>
+          </div><!--div closes class col  -->
+
+        </div><!--closes div class row-->
+      </div><!--div closes class container xl-->
+    </section><!-- section closes class container-fluid-->
+
+    <!-- Get in touch contact form and map  -->
+    <section class="container-fluid ">
+      <div class="map-bg py-5">
+
         <div class="container-xl">
-          <div class="row">
-            <div class="col-md order-md-1">
-              <picture>
-                <source srcset="images/desktopimg/largetop.png" media="(min-width:700px)" />
-                <source srcset="images/mobileimg/topimgtechsmall.png" media="(min-width:400px)">
-                <img class="w-100" src="images/desktopimg/top.png" alt="laptop and women face  " />
-              </picture>
-            </div>
-            <div class="col-md">
-              <h1 class="fs-6 text m-4 text-danger p-3 mod-size ">
-                MODERN STUDIO
-              </h1>
-              <h2 class="display-4 m-3 py-3 text-light fw-bolder phase">
-                We&apos;re Help To Build Your Dream Project</h2>
 
-              <p class=" m-1 p-2 text-light  "> Agency provides a full service range including technical
-                skills
-                design
-                business understanding </p>
-              <button class="btn btn-warning mx-3 " type="submit">HOW WE WORK</button>
-              <button class="btn btn-dark " type="submit"> Contact Us</button>
-              <div class="row">
-                <div class="col-md-1">
-                  <img class="mx-5 my-4 py-5" src="images/mobileimg/smallprofileimg.png"
-                    alt="men face in profile image">
+          <div class="row">
+
+
+            <form action="#" class="col-md-6 col-lg-4">
+              <div class="flex-shrink-1 bg-light py-5 px-4 ">
+                <h6 class="py-2">Get in Touch</h6>
+
+                <label for="email" class="form-label d-none">Email</label>
+
+
+                <input type="email" class="form-control rounded-2 border-warning mt-2" name="email"
+                  placeholder="Your email" id="email">
+
+                <label for="subject" class="form-label d-none">Subject</label>
+
+                <input type="text" class="form-control rounded-2 border-warning mt-2" name="subject"
+                  placeholder="Subject" id="subject">
+
+
+
+                <label for="message" class="form-label d-none">Message</label>
+                <textarea class="form-control rounded-2 border-warning mt-2" id="message" name="message"
+                  placeholder="Message" cols="30" rows="3"></textarea>
+                <div class="mt-2 text-end">
+                  <button class="btn btn-danger rounded-1">SUBMIT NOW</button>
                 </div>
-                <div class="col-md">
-                  <blockquote class="text-light mx-5 py-5">"Put themselves in the merchants' shoes" Meta Inc.
-                  </blockquote>
-                </div>
-              </div>
-
-            </div><!--div class h1 to h2 pargraphs col-md-->
-          </div><!--closes holding the responsive images and headings paragraphs-->
-        </div> <!--close container-xl-->
-      </section><!--close container-fluid all the blue background-->
-
-      <!-- images logo banner  -->
-
-      <section class="container-fluid banner ">
-        <div class="container-xl my-5 p-4">
-          <div class="row gy-4 gy-md-0 text-center">
-            <div class="col-md ">
-              <img src="images/desktopimg/Digitalsidelogo.png" alt=" Digitalsidelogo">
-            </div><!--div closing col-md Digitalsidelogo-->
-            <div class="col-md">
-              <img src="images/desktopimg/vortexlogo.png" alt="vortexlogo">
-            </div><!--div closing col-md vortexlogo-->
-            <div class="col-md">
-              <img src="images/desktopimg/travelexporerlogo.png" alt="travelexporerlogo">
-            </div><!--div closing col-md travelexplorer-->
-            <div class="col-md">
-              <img src="images/desktopimg/fuzionlogo.png" alt="fuzionlogo">
-            </div><!--div closing col-md fuzionlogo-->
-            <div class="col-md order-md-last">
-              <img src="images/desktopimg/MediaFurylogo.png" alt="MediaFurylogo">
-            </div><!--div closing col-md mediafury-->
-
-
-          </div><!-- div closing row--->
-
-
-        </div><!--container-xl-->
-      </section><!--section closing container-fluid banner -->
-
-      <!-- profile image side by side with text  -->
-      <section class=" container-fluid">
-        <div class="container-xl p-5">
-
-          <div class="row">
-            <div class="col-md-6 order-last">
-              <p class=" fs-6 text mx-5 text-danger mod-size">ABOUT</p>
-              <p class="display-6 fw-bolder phases px-5 "> An Experience Design Agency</p>
-              <p class="mx-5 fw-semibold "> Provide a full service range</p>
-              <p class="mx-5">Ability to put themsleves in the merchant shoes. It is meant to parnter on the long
-                run, and work as an extension of merchant team</p>
-              <button type="button" class="btn btn-light rounded-1 mx-5">ABOUT US</button>
-            </div><!-- div class col md order md2-->
-            <div class="col-md-6 order-first">
-              <picture>
-                <source srcset="images/desktopimg/largeoffice.png" media="(min-width:700px)" />
-                <source srcset="images/mobileimg/officeprofilesmall.png" media="(min-width:400px)" /><img
-                  class="img-fluid proimages" src="images/desktopimg/office.png"
-                  alt="men face profile with office behind " />
-              </picture>
-
-            </div><!--closes div class col md order md 1 -->
-          </div><!--div close row-->
-        </div><!--div close class container-xl-->
-      </section><!--section close class container-fluid bg-dark-->
-
-      <!--  one rows three single columns desktop  and mobiles stack on top of each other statis side by side -->
-      <section class="container-fluid">
-        <div class="container-xl p-5">
-          <div class="row mx-4 py-5">
-            <div class="col-md border border-warning-subtle rounded-1  ">
-              <p class="p-1 fs-3 fw-semibold text">42%</p>
-              <p>Years of experience </p>
-            </div> <!--div closes col-md -->
-
-            <div class="col-md border border-warning-subtle rounded-1">
-              <p class="p-1 fs-3 fw-semibold text">73+</p>
-              <p>Agency members</p>
-
-
-            </div><!--div closes class col-->
-            <div class="col-md border border-warning-subtle rounded-1">
-              <p class="p-1 fs-3 fw-semibold text">5.000</p>
-              <p>Project complete</p>
-
-            </div><!--div closes class col-->
-          </div><!--closes div class row-->
-        </div><!--div closes class container xl-->
-      </section><!-- section closes class container-fluid-->
-
-      <!-- making project and steps sections -->
-      <section class="container-fluid">
-        <div class="container-lg p-5">
-          <div class="row ">
-            <div class="col-md order-first">
-              <h4 class=" fs-6 text mx-1 text-danger mod-size ">HOW WE WORK</h4>
-              <h5 class="display-6 fw-bolder phases px-1">Making Your Projects Look Awesome</h5>
-              <p>Techincal skills design, business understanding Ability to put themselves in the
-                merchants shoes</p>
-              <p class="btn btn-light rounded-1 fs-6 text">Read More</p>
-            </div><!--div closes class col  -->
-            <div class="col-md fw-semibold fs-5 text p-2">
-              <ol class="my-3 pe-5 ">
-                <li class="py-3"> full service range including</li>
-                <li class="py-3"> Techincal skills, design business</li>
-                <li class="py-3"> themselves in the merchant's</li>
-              </ol>
-            </div><!--div closes class col-->
-          </div><!--closes div class row-->
-        </div><!--div closes class container xl-->
-      </section><!-- section closes class container-fluid-->
-
-      <!-- video and unlock grestest value possible -->
-      <section class="container-fluid">
-        <div class="container-xl p-5">
-          <div class="row">
-            <div class="col-md ">
-              <picture>
-                <source srcset="images/desktopimg/extralargevideo.png" media="(min-width:700px)" />
-                <source srcset="images/mobileimg/videobgsmall.png" media="(min-width:400px)" /><img class=" landv w-100"
-                  src="images/desktopimg/largevideo.png" alt="landscrape video" />
-              </picture>
-            </div><!--div closes class col  -->
-            <div class="col-md mt-5">
-              <h4 class=" fs-6 text mx-4 text-danger mod-size ">Video Reel</h4>
-              <p class="display-6 fw-bolder phases px-4">Unlock The Grestest Value Possible</p>
-              <p class="px-4 fs-6">Design , business understanding, Ability to put the themselves in the merchants
-                shoes
-                ment
-                to parnter
-              </p>
-
-            </div><!--div closes class col-->
-          </div><!--closes div class row-->
-        </div><!--div closes class container xl-->
-      </section><!-- section closes class container-fluid-->
-
-      <!--  Give your site a New look and profile and mobile image-->
-      <section class="container-fluid">
-        <div class="container-xl p-5">
-          <div class="row">
-            <div class="col-md order-md-1 ">
-              <picture>
-                <source srcset="images/desktopimg/largephone.png" media="(min-width:700px)" />
-                <source srcset="images/mobileimg/phoneprofilesmall.png" media="(min-width:400px)" /><img class="w-100"
-                  src="images/desktopimg/medphone.png" alt="profile image men and smartphone beside" />
-
-              </picture>
-            </div><!--div closes class col-->
-            <div class="col-md py-5">
-              <p class=" fs-6 text mx-5 text-danger mod-size ">Feature</p>
-              <p class="display-6 fw-bolder phases px-5">Give Your Site a New Look </p>
-              <p class="px-4">service range inclusing technical skills ,deisng
-                business understanding
-              </p>
-              <ul>
-                <!-- <i class="bi bi-check-circle-fill"></i> -->
-                <li>range including technical skills</li>
-                <li>Business unstanding </li>
-                <li> Parnter on the long run</li>
-              </ul>
-            </div><!--div closes class col  -->
-
-          </div><!--closes div class row-->
-        </div><!--div closes class container xl-->
-      </section><!-- section closes class container-fluid-->
-
-      <!-- Get in touch contact form and map  -->
-      <section class="container-fluid ">
-        <div class="map-bg">
-
-          <div class="container-xl">
-
-            <div class="row">
-
-
-              <form action="#" class="col-sm m-5 
-              d-flex">
-                <div class="flex-shrink-1 bg-light py-5 px-4 ">
-                  <h6 px-4 py-2 mx-3>Get in Touch</h6>
-
-                  <label for="email" class="form-label" name="email" id="email"></label>
-
-
-                  <input type="email" class="form-control rounded-2 border-warning" name="email"
-                    placeholder="Your email" id="email">
-
-                  <label for="subject" class="form-label" name="subject" id="subject"></label>
-
-                  <input type="subject" class="form-control rounded-2 border-warning" name="subject"
-                    placeholder="Subject" id="subject"> <i class="bi bi-caret-down-fill"></i>
-
-
-
-                  <label for="message" class="form-label"></label>
-                  <textarea class="form-control rounded-2 border-warning" id="message" name="message"
-                    placeholder="Message" cols="30" rows="3"></textarea>
-                  <div class="py-5 px-5 mx-5">
-                    <button class="btn btn-danger rounded-1">SUBMIT NOW</button>
-                  </div>
-
-                </div>
-
-              </form>
-              <div class="col-md-2 ">
-                <img src="images/desktopicon/pin.png" alt="location pin " class="p-5 my-5 ">
 
               </div>
 
+            </form>
+            <div class="col-md-3 ">
+              <img src="images/desktopicon/pin.png" alt="location pin " class="p-5 my-5 ">
+
             </div>
-
-
-
 
           </div>
 
 
+
+
         </div>
-    </div>
-    </div>
-    </div>
 
 
-    <!--  Contact phone,email and location -->
+      </div>
 
-    <div class="container-xl p-5">
-      <div class="row my-5 ms-2 ">
-        <div class="col-sm ms-4 border border-warning-subtle rounded-1">
-          <img src="images/desktopicon/phone.png" class="pho" alt="phone icon">
-          <p class="ms-5 my-4">phone</p>
-          <p class="ms-4"> +1(234) 567-89-00</p>
-        </div><!--div closes class col  -->
-        <div class="col-sm border border-warning-subtle rounded-1">
-          <img src="images/desktopicon/mail.png" class="emil" alt="mail icon">
-          <p class="ms-5 my-4">EMAIL </p>
-          <p class="ms-4">info@agency.com</p>
-        </div><!--div closes class col-->
-        <div class="col-sm me-4 border border-warning-subtle rounded-1">
-          <img src="images/desktopicon/address.png" class="addr" alt=" address icon ">
-          <p class="ms-5 my-4">ADDRESS</p>
-          <p class="ms-4">2247 Lunetta Street, TX 76301</p>
-        </div><!--div closes class col-->
-      </div><!--closes div class row-->
-    </div><!--div closes class container xl-->
+
+
+
+
+      <!--  Contact phone,email and location -->
+
+      <div class="container-xl p-5">
+        <div class="row my-5 ms-2 ">
+          <div class="col-sm ms-4 border border-warning-subtle rounded-1">
+
+            <p class="ms-5 my-4"><i class="bi bi-telephone-fill"></i>phone</p>
+            <p class="ms-4"> +1(234) 567-89-00</p>
+          </div><!--div closes class col  -->
+          <div class="col-sm border border-warning-subtle rounded-1">
+
+            <p class="ms-5 my-4">EMAIL </p>
+            <p class="ms-4">info@agency.com</p>
+          </div><!--div closes class col-->
+          <div class="col-sm me-4 border border-warning-subtle rounded-1">
+
+            <p class="ms-5 my-4">ADDRESS</p>
+            <p class="ms-4">2247 Lunetta Street, TX 76301</p>
+          </div><!--div closes class col-->
+        </div><!--closes div class row-->
+      </div><!--div closes class container xl-->
     </section><!-- section closes class container-fluid bg-light-->
 
 
-    </div><!--main div closing container-->
+
   </main>
   <footer class="mx-5">
     <div class="row">
