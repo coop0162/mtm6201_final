@@ -20,6 +20,12 @@ body {
   --bs-bg-color: var(--bs-primary);
 }
 
+/* btn-danger{
+--bs-bg-color: var(--bs-danger);
+--bs-bg-color: var(--bs-danger);
+--bs-bg-color: var(--bs-danger);
+} */
+
 /* quotation top page marginw */
 .quo {
   margin-top: -20%;
