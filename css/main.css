@@ -31,11 +31,10 @@ body {
   margin-top: -20%;
 }
 
-/* backgeound image on video image play button
-.landv{
-background-image: white url(../images/desktopicon/play.png); no-repeat center center;
-background-size: cover;
-} */
+/* unorder list remove bullet points  */
+ul {
+  list-style: none;
+}
 
 /* background image map */
 .map-bg {
