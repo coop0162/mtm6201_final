@@ -10,8 +10,10 @@ body {
   --bs-primary-rgb: 0, 4, 53;
   --cs-primary-dark: #906500;
   --cs-primary-dark-rgb: 236, 192, 110;
-  /* --bs-danger: ;
-  --bs-danger-rgb: ; */
+  --bs-danger: rgba(192, 73, 5, 0.911);
+  --bs-danger-rgb: 192, 73, 5;
+  --cs-danger-dark: #bc6c27;
+  --cs-danger-dark-rgb: 236, 192, 110;
 }
 
 .bg-primary {
@@ -20,11 +22,16 @@ body {
   --bs-bg-color: var(--bs-primary);
 }
 
-/* btn-danger{
---bs-bg-color: var(--bs-danger);
---bs-bg-color: var(--bs-danger);
---bs-bg-color: var(--bs-danger);
-} */
+.btn .btn-danger {
+  --bs-bg-color: var(--bs-danger);
+  --bs-bg-color: var(--bs-danger);
+  --bs-bg-color: var(--bs-danger);
+}
+.bg-danger {
+  --bs-bg-color: var(--bs-danger);
+  --bs-bg-color: var(--bs-danger);
+  --bs-bg-color: var(--bs-danger);
+}
 
 /* quotation top page marginw */
 .quo {
