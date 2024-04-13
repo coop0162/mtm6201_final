@@ -38,6 +38,17 @@ body {
   margin-top: -20%;
 }
 
+ol ::marker {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+li span {
+  vertical-align: middle;
+  display: inline-block;
+}
+
 /* unorder list remove bullet points  */
 ul {
   list-style: none;
