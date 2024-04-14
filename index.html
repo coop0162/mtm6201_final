@@ -23,14 +23,14 @@
 </head>
 
 <body>
-  <header>
+  <header role="banner">
     <!-- skips link to the static -important information -->
-    <nav>
-      <ul>
-        <li><a href="#static"> Important Information</a></li>
+    <nav role="navigation">
+      <ul role="complementary">
+        <li><a href="#static"> Important Information Statis</a></li>
         <li><a href="#bottom"> Bottom of Page </a></li>
       </ul>
-    </nav>
+    </nav><!--nav bar close skip links -->
     <nav class=" navbar navbar-expand-lg bg-dark" data-bs-theme="dark" id="Hometop">
       <div class="container-fluid">
 
@@ -41,9 +41,9 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> <!--button close hamburger -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" role="complementary">
 
             <li class="nav-item mx-3 px-5">
               <a class="nav-link active" aria-current="page" href="#about">About</a>
@@ -63,16 +63,17 @@
             </li>
 
           </ul>
+          <!-- unorder list Navibar close  -->
 
 
         </div><!--closes div collapse navbar-collapse-->
       </div><!--close div container-fluid-->
-    </nav>
-  </header>
+    </nav> <!--close nav bar -->
+  </header> <!-- header close-->
 
   <main>
     <!-- top page text side by side with med image -->
-    <section class="container-fluid banner bg-primary">
+    <section class="container-fluid banner bg-primary" role="region">
       <div class="container-xl">
         <div class="row">
           <div class="col-md order-md-1">
@@ -81,6 +82,7 @@
               <source srcset="images/mobileimg/topimgtechsmall.png" media="(min-width:400px)">
               <img class="w-100" src="images/desktopimg/top.png" alt="laptop and women face  " />
             </picture>
+            <!-- close picture responsive  -->
           </div>
           <div class="col-md">
             <h1 class="fs-6 text m-4 text-danger p-3 mod-size ">
@@ -112,7 +114,7 @@
 
     <!-- images logo banner  -->
 
-    <section class="container-fluid banner ">
+    <section class="container-fluid banner " role="region">
       <div class="container-xl my-5 p-4">
         <div class="row gy-4 gy-md-0 text-center">
           <div class="col-md ">
@@ -139,7 +141,7 @@
     </section><!--section closing container-fluid banner -->
 
     <!-- profile image side by side with text  -->
-    <section class=" container-fluid">
+    <section class=" container-fluid" role="region">
       <div class="container-xl p-5">
 
         <div class="row">
@@ -166,7 +168,7 @@
     </section><!--section close class container-fluid bg-dark-->
 
     <!--  one rows three single columns desktop  and mobiles stack on top of each other statis side by side -->
-    <section class="container-fluid">
+    <section class="container-fluid" role="region">
       <div class="container-xl p-5" id="static">
         <div class="row mx-4 py-5">
           <div class="col-md border border-warning-subtle rounded-1  ">
@@ -190,7 +192,7 @@
     </section><!-- section closes class container-fluid-->
 
     <!-- making project and steps sections -->
-    <section class="container-fluid">
+    <section class="container-fluid" role="region">
       <div class="container-lg p-5">
         <div class="row ">
           <div class="col-md order-first pe-4">
@@ -212,7 +214,7 @@
     </section><!-- section closes class container-fluid-->
 
     <!-- video and unlock grestest value possible -->
-    <section class="container-fluid">
+    <section class="container-fluid" role="region">
       <div class="container-xl p-5">
         <div class="row">
           <div class="col-md ">
@@ -237,7 +239,7 @@
     </section><!-- section closes class container-fluid-->
 
     <!--  Give your site a New look and profile and mobile image-->
-    <section class="container-fluid">
+    <section class="container-fluid" role="region">
       <div class="container-xl p-5">
         <div class="row">
           <div class="col-md order-md-1 ">
@@ -246,7 +248,7 @@
               <source srcset="images/mobileimg/phoneprofilesmall.png" media="(min-width:400px)" /><img class="w-100"
                 src="images/desktopimg/medphone.png" alt="profile image men and smartphone beside" />
 
-            </picture>
+            </picture> <!--picture responsive-->
           </div><!--div closes class col-->
           <div class="col-md py-5">
             <p class=" fs-6 text mx-5 text-danger mod-size ">Feature</p>
@@ -267,7 +269,7 @@
     </section><!-- section closes class container-fluid-->
 
     <!-- Get in touch contact form and map  -->
-    <section class="container-fluid ">
+    <section class="container-fluid " role="region">
       <div class="map-bg py-5">
 
         <div class="container-xl">
@@ -297,25 +299,25 @@
                   placeholder="Message" cols="30" rows="3"></textarea>
                 <div class="mt-2 text-end">
                   <button class="btn btn-danger rounded-1">SUBMIT NOW</button>
-                </div>
+                </div><!--div closes mt-2 text-end-->
 
-              </div>
+              </div><!--flex-shrink-1 bg-light py-5 px-4-->
 
             </form>
             <div class="col-md-3 ">
               <img src="images/desktopicon/pin.png" alt="location pin " class="p-5 my-5 ">
 
-            </div>
+            </div><!--div close col-md-3-->
 
-          </div>
-
-
+          </div> <!--div row-->
 
 
-        </div>
 
 
-      </div>
+        </div> <!--div close container-xl-->
+
+
+      </div> <!--div close map-bg py-5 -->
 
 
 
@@ -331,8 +333,8 @@
             <p class="ms-4"> +1(234) 567-89-00</p>
             <!-- Schema not display  -->
             <div class="d-none" itemscope itemtype="https://schema.org/telephone">
-              <span itemprop="telephone">+1(234) 567-89-00</span>
-            </div>
+              <span itemprop="text">+1(234) 567-89-00</span>
+            </div><!-- div closes schema telephone-->
 
 
           </div><!--div closes class col  -->
@@ -343,8 +345,8 @@
             <p class="ms-4">info@agency.com</p>
             <!-- schema not display -->
             <div class="d-none" itemscope itemtype="https://schema.org/email">
-              <span itemprop="email">info@agency.com</span>
-            </div>
+              <span itemprop="text">info@agency.com</span>
+            </div> <!-- div closes schema email-->
           </div><!--div closes class col-->
           <div class="col-sm me-4 border border-warning-subtle rounded-1">
 
@@ -355,7 +357,7 @@
               <span itemprop="streetAddress">2247 Lunetta Street</span>
               <span itemprop="addressRegion">TX</span>
               <span itemprop="postalCode">76301</span>
-            </div>
+            </div><!-- div closes schema Postal Address-->
           </div><!--div closes class col-->
         </div><!--closes div class row-->
       </div><!--div closes class container xl-->
@@ -364,19 +366,20 @@
 
 
   </main>
-  <footer class="mx-5" id="bottom">
+  <footer class="mx-5" id="bottom" role="contentinfo">
     <div class="row">
       <div class="col-md">
         <p>Copyright &copy;2022 Laaqiq. All Rights Reserved</p>
-        <nav>
+        <!-- top of page skip link -->
+        <nav role="navigation">
           <ul>
             <li><a href="#Hometop"> Top of Page</a></li>
           </ul>
-      </div>
-      <div class="col-md">
-        <p>Terms of Use</p>
-      </div>
-    </div>
+        </nav>
+        <div class="col-md">
+          <p>Terms of Use</p>
+        </div><!--div lcise col-md-->
+      </div><!--close div row-->
 
   </footer>
 
