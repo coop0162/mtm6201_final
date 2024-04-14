@@ -24,8 +24,16 @@
 
 <body>
   <header>
-    <nav class=" navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <!-- skips link to the static -important information -->
+    <nav>
+      <ul>
+        <li><a href="#static"> Important Information</a></li>
+        <li><a href="#bottom"> Bottom of Page </a></li>
+      </ul>
+    </nav>
+    <nav class=" navbar navbar-expand-lg bg-dark" data-bs-theme="dark" id="Hometop">
       <div class="container-fluid">
+
         <!-- logo top navibar -->
         <a class="navbar-brand px-4" href="index.html"></a>
         <img src="images/mobileicons/logosmall.png" alt="home agency logo">
@@ -36,6 +44,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
             <li class="nav-item mx-3 px-5">
               <a class="nav-link active" aria-current="page" href="#about">About</a>
             </li>
@@ -50,6 +59,7 @@
             </li>
             <li>
               <button class="btn btn-outline-light mx-5 px-4" type="submit">CONTACT</button>
+
             </li>
 
           </ul>
@@ -157,7 +167,7 @@
 
     <!--  one rows three single columns desktop  and mobiles stack on top of each other statis side by side -->
     <section class="container-fluid">
-      <div class="container-xl p-5">
+      <div class="container-xl p-5" id="static">
         <div class="row mx-4 py-5">
           <div class="col-md border border-warning-subtle rounded-1  ">
             <p class="animate__animated animate__flash p-1 fs-3 fw-semibold text">42%</p>
@@ -354,10 +364,14 @@
 
 
   </main>
-  <footer class="mx-5">
+  <footer class="mx-5" id="bottom">
     <div class="row">
       <div class="col-md">
         <p>Copyright &copy;2022 Laaqiq. All Rights Reserved</p>
+        <nav>
+          <ul>
+            <li><a href="#Hometop"> Top of Page</a></li>
+          </ul>
       </div>
       <div class="col-md">
         <p>Terms of Use</p>
