@@ -319,16 +319,32 @@
 
             <p class="ms-5 my-4"><i class="bi bi-telephone-fill"></i>phone</p>
             <p class="ms-4"> +1(234) 567-89-00</p>
+            <!-- Schema not display  -->
+            <div class="d-none" itemscope itemtype="https://schema.org/telephone">
+              <span itemprop="telephone">+1(234) 567-89-00</span>
+            </div>
+
           </div><!--div closes class col  -->
           <div class="col-sm border border-warning-subtle rounded-1">
 
+
             <p class="ms-5 my-4"><i class="bi bi-envelope"></i>EMAIL </p>
             <p class="ms-4">info@agency.com</p>
+            <!-- schema not display -->
+            <div class="d-none" itemscope itemtype="https://schema.org/email">
+              <span itemprop="email">info@agency.com</span>
+            </div>
           </div><!--div closes class col-->
           <div class="col-sm me-4 border border-warning-subtle rounded-1">
 
             <p class="ms-5 my-4"><i class="bi bi-compass"></i>ADDRESS</p>
             <p class="ms-4">2247 Lunetta Street, TX 76301</p>
+            <!-- Schema not display  -->
+            <div class="d-none" itemscope itemtype="https://schema.org/PostalAddress">
+              <span itemprop="streetAddress">2247 Lunetta Street</span>
+              <span itemprop="addressRegion">TX</span>
+              <span itemprop="postalCode">76301</span>
+            </div>
           </div><!--div closes class col-->
         </div><!--closes div class row-->
       </div><!--div closes class container xl-->
