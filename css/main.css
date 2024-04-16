@@ -22,7 +22,7 @@ body {
   --bs-bg-color: var(--bs-primary);
 }
 /* bootstrap custom .bg-danger  and .btn-danger colour */
-.btn .btn-danger {
+.btn-danger {
   --bs-bg-color: var(--bs-danger);
   --bs-bg-color: var(--bs-danger);
   --bs-bg-color: var(--bs-danger);
